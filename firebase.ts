@@ -3,13 +3,13 @@ import { getMessaging, getToken, isSupported } from "firebase/messaging";
 
 // Replace the following with your app's Firebase project configuration
 const firebaseConfig = {
-  apiKey: null,
-  authDomain: null,
-  projectId: null,
-  storageBucket: null,
-  messagingSenderId: null,
-  appId: null,
-  measurementId: null,
+  apiKey: "AIzaSyB5-Mt4AVColvCm57e5AVs4d2TpBsbLQtM",
+  authDomain: "fcm-demo-fec06.firebaseapp.com",
+  projectId: "fcm-demo-fec06",
+  storageBucket: "fcm-demo-fec06.appspot.com",
+  messagingSenderId: "981819859331",
+  appId: "1:981819859331:web:442e049ce05a58723956b6",
+  measurementId: "G-E0GXDFTTX8",
 };
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApp();
